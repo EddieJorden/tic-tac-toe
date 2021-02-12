@@ -1,7 +1,8 @@
-import React  from 'react';
+import React, { useState }  from 'react';
+
 
 const SquareComponent = () => {
-    // const [square, setSquare] = useState(false)
+    const [square, setSquare] = useState('')
 
     const placeX = 'X'
         // setSquare(() => placeX)
@@ -25,7 +26,17 @@ const SquareComponent = () => {
             <div>tic tac toe space
 
             </div>
-            <button style={{width: '80px', height: '50px', cursor: 'pointer'}}>{placeX}</button>
+            <SquareComponent 
+                style={{
+                    width: '80px', 
+                    height: '50px', 
+                    cursor: 'pointer',
+                    text: 'empty space'
+                }} 
+                // onClick={setSquare('X')}
+            />
+                    
+            
         </div>
     )
 }
