@@ -1,11 +1,12 @@
 import React from 'react';
 import SquareComponent from './components/SquareComponent';
+import TicTacToe from './components/TicTacToe';
 // import PlayingField from './components/PlayingField';
 
 function App() {
 	return (
 		<div>
-			<SquareComponent />
+			<TicTacToe />
 		</div>
 	);
 }
