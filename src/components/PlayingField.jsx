@@ -1,7 +1,11 @@
 import React from 'react'
+import SquareComponent from './SquareComponent'
 
-const PlayingField = () => (
-    <div><th style={{border: '3px'}}></th></div>
+const PlayingField = ({squares, onClick}) => (
+    <div className='PlayingField'>
+      
+     
+    </div>
 
 )
 

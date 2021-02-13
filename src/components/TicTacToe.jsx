@@ -1,11 +1,10 @@
 import React from 'react'
 import SquareComponent from './SquareComponent'
 
-const TicTacToe = ({text: {}}) => {
-    
-    
+const TicTacToe = () => {
+        
     return(
-        <SquareComponent text={text}/>
+        <SquareComponent />
     )
 }
 
