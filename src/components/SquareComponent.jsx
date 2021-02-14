@@ -2,7 +2,7 @@ import React, { useState }  from 'react';
 
 
 const SquareComponent = ({value, onClick}) => {
-    const style = value ? 'squares ${value}' : 'squares';
+ 
     
 
 
@@ -15,7 +15,7 @@ const SquareComponent = ({value, onClick}) => {
                     cursor: 'pointer',
                 }}
                 onClick={onClick}
-                className={style}
+                
                 
                 >
                     {value}
