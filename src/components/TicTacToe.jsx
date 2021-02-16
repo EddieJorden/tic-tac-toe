@@ -1,10 +1,11 @@
 import React from 'react'
 import SquareComponent from './SquareComponent'
+import PlayingField from './PlayingField'
 
 const TicTacToe = () => {
         
     return(
-        <SquareComponent />
+        <PlayingField />
     )
 }
 
