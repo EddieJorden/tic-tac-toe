@@ -9,14 +9,21 @@ const PlayingField = () => {
     console.log(XorO)
     
 
+    
+
 return(
-    <div className='PlayingField'>
+    <div className='PlayingField' style={{display: 'flex', flexWrap: 'wrap'}}>
       <SquareComponent XorO={XorO} setXorO={setXorO} />
       <SquareComponent XorO={XorO} setXorO={setXorO} />
       <SquareComponent XorO={XorO} setXorO={setXorO} />
+      <SquareComponent XorO={XorO} setXorO={setXorO} />
+      <SquareComponent XorO={XorO} setXorO={setXorO} />
+      <SquareComponent XorO={XorO} setXorO={setXorO} />
+      <SquareComponent XorO={XorO} setXorO={setXorO} />
+      <SquareComponent XorO={XorO} setXorO={setXorO} />
+      <SquareComponent XorO={XorO} setXorO={setXorO} />    
     </div>
-)
-}
+)}
 
 
 
